@@ -1,6 +1,6 @@
 # AI-Based Blood Pressure Prediction from PPG and Demographic Features
 
-**Developed by:** Warda Aziz
+**Developed by:** Warda Aziz  
 **Project done for:** Leslie Leung  
 **Date:** September 27, 2025  
 
@@ -20,21 +20,24 @@ The **Neural Network** achieved the best performance (SBP MAE: 7.1 mmHg, DBP MAE
 
 ## Dataset
 - **Original Dataset:** [PPG-BP Dataset – Nature Scientific Data](https://www.nature.com/articles/sdata201820)  
-- **License / Terms:** Check the original source for reuse guidelines.  
-- **Processed Data:** [Google Drive Link] *(Optional – your cleaned/derived data)*
+- **Processed Data used in this project:** [Download from Google Drive](https://drive.google.com/uc?export=download&id=1Y01vFJudo4anAiaLh9HRw4MblVdtv249)  
+- **License / Terms:** Check the original source for reuse guidelines.
 
 **Features:**
 - Demographic: Age, Sex, Height, Weight, BMI  
 - Physiological: Heart Rate, SBP, DBP  
 - Medical History: Hypertension, Diabetes, Cerebrovascular disease  
 
+> **Note:** For convenience, the processed dataset is included in the `data/` folder when cloned.
+
 ---
 
 ## Files Included
 - `notebooks/AI_BP_Prediction.ipynb` — Jupyter Notebook with full code  
-- `report.pdf` — Full project report  
+- `report.pdf` — Detailed project report  
 - `graphs/` — Folder containing visualizations (accuracy plots, confusion matrix, SHAP plots)  
-- `requirements.txt` — Python dependencies
+- `data/` — Folder with the processed dataset (from Google Drive)  
+- `requirements.txt` — Python dependencies  
 
 ---
 
@@ -71,3 +74,4 @@ The **Neural Network** achieved the best performance (SBP MAE: 7.1 mmHg, DBP MAE
 - Incorporate raw PPG waveform deep learning models (CNN/LSTM)  
 - Use larger datasets for improved generalization  
 - Deploy as a real-time wearable or mobile health assistant  
+
